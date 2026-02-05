@@ -191,7 +191,7 @@ export const ContactSection = () => {
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
-                    placeholder="John Doe"
+                    placeholder="John snow"
                     required
                     className="bg-secondary/50 border-border focus:border-primary"
                   />
