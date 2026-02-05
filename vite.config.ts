@@ -11,12 +11,12 @@ export default defineConfig(({ mode }) => ({
       overlay: false,
     },
     allowedHosts: [
-      "pruthviraj-folio-sparkle.onrender.com", // allow Render host
+      "pruthviraj-folio-sparkle.onrender.com", // Render host allowed
     ],
   },
   plugins: [
     react({
-      fastRefresh: mode === "development", // only use dev helpers in development
+      fastRefresh: mode === "development", // only use dev helpers in dev
     }),
     mode === "development" && componentTagger(),
   ].filter(Boolean),
@@ -24,5 +24,8 @@ export default defineConfig(({ mode }) => ({
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
+  },
+  build: {
+    target: "esnext", // modern JS for Render
   },
 }));
