@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { ArrowDown, Github, Linkedin, Mail, FileText, ExternalLink } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import profilePhoto from '@/assets/profile-photo.jpg';
+import profilePhoto from '@/assets/profile-photo.png';
 
 export const HeroSection = () => {
   const scrollToProjects = () => {
@@ -109,6 +109,7 @@ export const HeroSection = () => {
                 className="hover:bg-secondary transition-all duration-300"
               >
                 <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                <a href="https://drive.google.com/uc?export=view&id=1y-0u3zvFQB10RujtbUsvWk_FymXoXDV6" target="_blank" rel="noopener noreferrer">
                   <FileText className="mr-2 h-4 w-4" />
                   Resume
                 </a>

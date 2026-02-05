@@ -81,7 +81,7 @@ export const Navbar = () => {
                 size="sm"
                 className="ml-4 gradient-bg hover:opacity-90 transition-opacity"
               >
-                <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                <a href="https://drive.google.com/uc?export=view&id=1y-0u3zvFQB10RujtbUsvWk_FymXoXDV6" target="_blank" rel="noopener noreferrer">
                   Resume
                 </a>
               </Button>
@@ -136,7 +136,7 @@ export const Navbar = () => {
                   asChild
                   className="w-full gradient-bg hover:opacity-90 transition-opacity"
                 >
-                  <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                  <a href="https://drive.google.com/uc?export=view&id=1y-0u3zvFQB10RujtbUsvWk_FymXoXDV6" target="_blank" rel="noopener noreferrer">
                     Download Resume
                   </a>
                 </Button>
