@@ -5,7 +5,7 @@ FullStack MERN Developer | Frontend | Backend
 </h3>
 
 <p align="center">
-  <a href="https://pruthviraj-folio-sparkle.onrender.com/">
+  <a href="https://pruthviii.onrender.com/">
     <img src="https://img.shields.io/badge/🌐 Live Portfolio-Visit-blue?style=for-the-badge" />
   </a>
   <a href="https://github.com/Pruthviraj75">
@@ -25,7 +25,7 @@ A modern, responsive, and professional developer portfolio built to showcase my 
 Designed with clean UI, smooth animations, and scalable architecture to deliver an excellent user experience across all devices.
 
 🔗 **Live Website:**  
-👉 https://pruthviraj-folio-sparkle.onrender.com/
+👉 https://pruthviii.onrender.com/
 
 ---
 
