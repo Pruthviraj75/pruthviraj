@@ -22,49 +22,49 @@ export const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="relative border-t border-border bg-background">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-          {/* Brand */}
-          <div className="text-center md:text-left">
-            <a href="#home" className="text-2xl font-bold gradient-text">
-              Pruthviraj
-            </a>
-            <p className="text-muted-foreground mt-2">
-              Frontend & MERN Stack Developer
-            </p>
-          </div>
+    <footer className="border-t border-gray-800 mt-16">
+  <div className="max-w-7xl mx-auto px-6 py-10 grid md:grid-cols-3 gap-8">
 
-          {/* Social Links */}
-          <div className="flex items-center gap-4">
-            {socialLinks.map((social) => (
-              <a
-                key={social.label}
-                href={social.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-2 rounded-lg text-muted-foreground hover:text-primary hover:bg-primary/10 transition-all duration-300"
-                aria-label={social.label}
-              >
-                <social.icon className="h-5 w-5" />
-              </a>
-            ))}
-          </div>
-        </div>
+    {/* LEFT - Branding */}
+    <div>
+      <h2 className="text-xl font-semibold text-white">Pruthviraj Gaikwad</h2>
+      <p className="text-gray-400 mt-2 text-sm">
+        Full-Stack Developer building scalable web applications and AI-powered products.
+      </p>
+    </div>
 
-        {/* Divider */}
-        <div className="border-t border-border my-8" />
+    {/* CENTER - Navigation */}
+    <div>
+      <h3 className="text-white font-medium mb-3">Quick Links</h3>
+      <ul className="space-y-2 text-gray-400 text-sm">
+        <li><a href="#projects" className="hover:text-white transition">Projects</a></li>
+        <li><a href="#about" className="hover:text-white transition">About</a></li>
+        <li><a href="#contact" className="hover:text-white transition">Contact</a></li>
+      </ul>
+    </div>
 
-        {/* Bottom */}
-        <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
-          <p>
-            © {currentYear} Pruthviraj Gaikwad. All rights reserved.
-          </p>
-          <p className="flex items-center gap-1">
-            Built with <Heart className="h-4 w-4 text-destructive fill-destructive" /> using React & Tailwind
-          </p>
-        </div>
+    {/* RIGHT - Socials */}
+    <div>
+      <h3 className="text-white font-medium mb-3">Connect</h3>
+      <div className="flex gap-4">
+        <a href="https://github.com/Pruthviraj75" target="_blank" className="text-gray-400 hover:text-white transition">
+          GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/pruthvi-gaikwad/" target="_blank" className="text-gray-400 hover:text-white transition">
+          LinkedIn
+        </a>
+        <a href="mailto:gaikwadpruthviraj01@gmail.com" className="text-gray-400 hover:text-white transition">
+          Email
+        </a>
       </div>
-    </footer>
+    </div>
+
+  </div>
+
+  {/* Bottom Bar */}
+  <div className="border-t border-gray-800 text-center py-4 text-gray-500 text-sm">
+    © {new Date().getFullYear()} Pruthviraj Gaikwad · Built with Next.js & Tailwind CSS
+  </div>
+</footer>
   );
 };
