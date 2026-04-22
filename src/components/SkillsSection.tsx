@@ -32,13 +32,15 @@ const skillCategories = [
     color: "from-green-500 to-emerald-400",
   },
   {
-    title: "Database & Cloud",
+    title: "Database, Cloud & Tools",
     icon: Database,
     skills: [
       "MongoDB", "Mongoose", "Convex (Realtime DB)",
       "Schema Design", "CRUD Operations",
+      "Git", "GitHub", "Postman", "VS Code",
       "Cloud Deployment (Vercel, Render)",
-      "Environment Management (.env)"
+      "Environment Variables (.env)",
+      "Clerk Authentication", "Arcjet Security"
     ],
     color: "from-purple-500 to-pink-400",
   },
@@ -48,22 +50,12 @@ const skillCategories = [
     skills: [
       "Google Gemini API", "AI Tool Calling",
       "Prompt Engineering (Basics)",
-      "External API Integration (Weather API, etc.)",
+      "External API Integration",
       "Dynamic API Query Handling",
-      "JSON Parsing & Structured Responses"
+      "JSON Parsing & Structured Responses",
+      "Problem Solving", "Debugging", "Clean Code"
     ],
     color: "from-orange-500 to-amber-400",
-  },
-  {
-    title: "Tools & Practices",
-    icon: Settings,
-    skills: [
-      "Git", "GitHub", "Postman", "VS Code",
-      "Clerk Authentication", "Arcjet Security",
-      "Debugging", "Clean Code",
-      "Problem Solving", "Agile Methodology"
-    ],
-    color: "from-teal-500 to-green-400",
   }
 ];
 
