@@ -22,7 +22,7 @@ const projects = [
   id: 2,
   title: "AI Customer Support",
   description: "AI-powered customer support SaaS that allows businesses to embed a real-time chat assistant into any website using a single script tag. Includes knowledge base-driven responses, secure owner-based data isolation, scalable Next.js backend, MongoDB storage, and lightweight embeddable JavaScript widget.",
-  image: "https://images.unsplash.com/photo-1581090700227-4c4d3c4b1b6f?w=800&auto=format&fit=crop&q=80",
+  image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&auto=format&fit=crop&q=80",
   tech: ["Next.js", "TypeScript", "MongoDB", "Scalekit", "Vanilla JavaScript", "AI API", "Tailwind CSS", "Vercel"],
   github: "https://github.com/Pruthviraj75/ai-customer-support",
   live: "https://ai-customer-support-two-omega.vercel.app",
