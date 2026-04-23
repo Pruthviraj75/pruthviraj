@@ -108,7 +108,7 @@ export const HeroSection = () => {
                 asChild
                 className="hover:bg-secondary transition-all duration-300"
               >
-                <a href="https://drive.google.com/file/d/1y-0u3zvFQB10RujtbUsvWk_FymXoXDV6/view" target="_blank" rel="noopener noreferrer">
+                <a href="https://pruthviii.onrender.com/Pruthviraj_Resume" target="_blank" rel="noopener noreferrer">
                   <FileText className="mr-2 h-4 w-4" />
                   Resume
                 </a>
