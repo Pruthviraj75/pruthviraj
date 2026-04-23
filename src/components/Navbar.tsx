@@ -81,7 +81,7 @@ export const Navbar = () => {
                 size="sm"
                 className="ml-4 gradient-bg hover:opacity-90 transition-opacity"
               >
-                <a href="https://drive.google.com/file/d/1y-0u3zvFQB10RujtbUsvWk_FymXoXDV6/view" target="_blank" rel="noopener noreferrer">
+                <a href="https://pruthviii.onrender.com/resume.pdf" target="_blank" rel="noopener noreferrer">
                   Resume
                 </a>
               </Button>
